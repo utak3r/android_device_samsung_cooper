@@ -5,6 +5,7 @@
          be empty.  An example would be "usb.*" -->
     <!-- Boolean indicating whether the start command should be called on the wireless interface
          when starting the SoftAp-->
+	<add-resource type="bool" name="config_wifiApStartInterface"></add-resource>
     <bool name="config_wifiApStartInterface">true</bool>
 
     <string-array translatable="false" name="config_tether_usb_regexs">
@@ -51,6 +52,7 @@
             16 - App switch
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
+		<add-resource type="integer" name="config_deviceHardwareKeys"></add-resource>
 		<integer name="config_deviceHardwareKeys">7</integer>
 
 		<bool name="config_samsung_stk">true</bool>
